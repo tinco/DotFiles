@@ -1,0 +1,8 @@
+[user]
+	name = Tinco Andringa
+	email = mail@tinco.nl
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	push = auto
