@@ -29,3 +29,9 @@ set laststatus=2
 
 set list
 set lcs=tab:\ \ ,trail:~
+
+" Mouse support
+if has("mouse")
+	set mouse=a
+	"set ttymouse=xterm2 <-- if inside screen?
+endif
