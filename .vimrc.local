@@ -1,0 +1,15 @@
+" No annoying sounds
+set visualbell
+" No indentation clutter
+set nolist
+
+" Awesome colors:
+colors molokai
+
+" For browsing haskell documentation:
+" TODO fix for windows/linux
+let g:haddock_browser = "open"
+let g:haddock_browser_callformat = "%s %s"
+
+" Automatically detect indentation
+autocmd BufReadPost * :DetectIndent

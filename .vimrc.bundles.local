@@ -1,0 +1,3 @@
+Bundle "lukerandall/haskellmode-vim"
+Bundle "d-snp/haskell.vim"
+Bundle "ciaranm/detectindent"
