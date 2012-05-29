@@ -3,6 +3,9 @@ set visualbell
 " No indentation clutter
 set nolist
 
+" Spelling in vim doesn't work very well
+set nospell
+
 " Awesome colors:
 colors molokai
 
