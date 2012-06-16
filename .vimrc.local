@@ -16,3 +16,6 @@ let g:haddock_browser_callformat = "%s %s"
 
 " Automatically detect indentation
 autocmd BufReadPost * :DetectIndent
+
+" Enable haskell compiler
+au BufEnter *.hs compiler ghc
