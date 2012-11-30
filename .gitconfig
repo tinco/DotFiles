@@ -8,3 +8,7 @@
 	push = auto
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --date=local --abbrev-commit
+[core]
+	autocrlf = input
+[push]
+	default = simple
