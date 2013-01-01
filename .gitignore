@@ -1,0 +1,7 @@
+# Ignore everything
+*
+# Except the files we want
+!.gitconfig
+!.gitignore
+!.vimrc.bundles.local
+!.vimrc.local
