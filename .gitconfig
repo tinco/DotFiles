@@ -6,8 +6,12 @@
 	status = auto
 	branch = auto
 	push = auto
+[pretty]
+	awesome = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --date=local --abbrev-commit
+	lg = log --color --graph --pretty=awesome --date=local --abbrev-commit
+	branches = "!git for-each-ref --sort=-committerdate refs/heads --format='git --no-pager log -n 1 --pretty=awesome %(objectname)'|sh"
+	branches-origin = "!git for-each-ref --sort=-committerdate refs/remotes/origin --format='git --no-pager log -n 1 --pretty=awesome %(objectname)'|sh"
 [core]
 	autocrlf = input
 [push]
