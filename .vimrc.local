@@ -2,6 +2,7 @@
 set visualbell
 " No indentation clutter
 set nolist
+let g:indent_guides_auto_colors = 0
 
 " Spelling in vim doesn't work very well
 set nospell
