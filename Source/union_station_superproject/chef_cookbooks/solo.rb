@@ -1,0 +1,1 @@
+vendor/phusion-chef-base/solo.rb
